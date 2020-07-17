@@ -1,0 +1,78 @@
+body{
+    background-color: initial !important;
+    background-image: url('../img/signup-bg.png') !important;
+    background-size: 100% 100%;
+}
+
+nav.header-navbar{
+    background-color: transparent !important;
+}
+
+div.card{
+    background-color: transparent !important;
+}
+
+div.card-header{
+    background-color: transparent !important;
+}
+
+a.nav-link{
+    background-color:  transparent !important;
+}
+
+div.tab-pane{
+    background-color: transparent !important;
+}
+
+input.form-control{
+    background-color: rgba(179,179,179,0.1) !important;
+    mix-blend-mode: normal !important;
+    border-radius: 6px !important;
+}
+
+select.form-control{
+    background-color: rgba(179,179,179,0.1) !important;
+    mix-blend-mode: normal !important;
+    border-radius: 6px !important;
+}
+
+select.form-control option{
+    background-color: rgba(179,179,179,0.1) !important;
+    mix-blend-mode: normal !important;
+    border-radius: 6px !important;
+}
+
+.continue-btn{
+    background-color: #FF0039 !important;
+    border-radius: 6px !important;
+    color: white;
+}
+
+.login-btn{
+    background-color: #FF0039 !important;
+    color: white !important;
+    border-radius: 6px !important;
+}
+
+.fb-btn{
+    background-color: #335191 !important;
+    color: white !important;
+    border-radius: 6px !important;
+}
+
+.skip-btn{
+    color: white;
+}
+
+.nav-tabs a.nav-link{
+    color: #5D6C76 !important;
+}
+
+.nav-tabs a.nav-link.active{
+    color: white !important;
+}
+
+.nav.nav-tabs .nav-item .nav-link.active:after{
+    background: none !important;
+    background-color:  #FF0039 !important;
+}
