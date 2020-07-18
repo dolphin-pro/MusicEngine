@@ -1,6 +1,6 @@
 body{
     background-color: initial !important;
-    background-image: url('../resource/detail-background.png') !important;
+    background-image: url('../../img/background2.png') !important;
     background-size: 100% ;
     font-family: Montserrat !important;
 }
