@@ -1,0 +1,46 @@
+body{
+    background-color: initial !important;
+    background-image: url('../../img/background.jpg') !important;
+    background-size: 100% 100%;
+}
+nav.header-navbar{
+    margin: 0px 0px !important;
+    width: 100% !important;
+}
+
+div.main-menu{
+    top: 70px !important;
+}
+
+nav.header-navbar{
+    background: linear-gradient(177.53deg, #5F0000 0%, #310000 100%);
+}
+
+input.search-txt{
+    background-color: rgba(38,43,73,0.2) !important ;
+    mix-blend-mode: normal !important;
+    border: 1px solid #FFFFFF !important;
+    border-radius: 6px !important;
+    width: 300px !important;
+}
+
+.table{
+    background-color: transparent !important;
+    border-spacing: 0 0.7rem !important;
+    border-collapse: separate !important;
+}
+
+.table thead tr th{
+    background-color: transparent !important;
+}
+
+.table tbody tr td{
+    background-color: transparent !important;
+}
+
+.table tbody tr{
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(137, 137, 137, 0.2);
+    backdrop-filter: blur(13.5914px);
+    border-radius: 6px;
+}
