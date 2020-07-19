@@ -59,4 +59,14 @@ div.tab-pane{
     background-color:  #FF0039 !important;
 }
 
+.table{
+    background-color: transparent !important;
+}
 
+.table thead tr th{
+    background-color: transparent !important;
+}
+
+.table tbody tr td{
+    background-color: transparent !important;
+}
