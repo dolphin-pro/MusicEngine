@@ -149,7 +149,8 @@
                                 <div style="font-size: 12px;">0.00 ETH/RealToken</div>
                             </div>
                             <div>
-                                <button type="button" class="btn m-1 " style="border: 1px solid #FF0039; color: white; text-transform: uppercase;">Deposit</button>
+                                <button type="button" class="btn m-1 " style="border: 1px solid #FF0039; color: white; text-transform: uppercase;"
+                                data-toggle="modal" data-target="#inlineForm">Deposit</button>
                                 <button type="button" class="btn m-1 " style="border: 1px solid #FF0039; color: white; text-transform: uppercase;">withdraw</button>
                             </div>
                         </div>
@@ -350,6 +351,66 @@
 
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade text-left" id="inlineForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel33" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content p-2" >
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel33">Recieve Funds </h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+               
+                <div class="modal-body">
+                    <div class="first">
+                        <label>Choose a wallet to link your RealT account to.</label>
+                        <div class="row mt-1" style="margin-bottom: 5px;">
+                            <div class="col-12 d-flex justify-content-center">
+                                <button type="button " class="btn p-0" style="margin: 5px;"><img src="../img/btn19.png"></button>
+                                <button type="button" class="btn p-0" style="margin: 5px;"><img src="../img/btn20.png"></button>
+                            </div>
+                        </div>
+                        <div class="row" style="margin: 5px;">
+                            <div class="col-12 d-flex justify-content-center">
+                                <button type="button" class="btn p-0" style="margin: 5px;"><img src="../img/btn21.png"></button>
+                                <button type="button" class="btn p-0" style="margin: 5px;" id="trust"><img src="../img/btn22.png"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second">
+                        <div class="row">
+                            <div class="col-12 p-2">                                
+                                <label>Successfully connected to Trust Wallet account</label>
+                                <button type="button" class="btn p-0" style="margin: 5px;"><img src="../img/btn22.png"></button>
+                            </div>
+                            <div class="col-12">                                
+                                <div class="divider">
+                                    <div class="divider-text">
+                                        <button type="button" class="btn round" style="border: 1px solid rgba(151, 151, 151, 0.2); padding: 5px; color: white;">
+                                            OR</button> </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="3242v312323x213123x1x32c129388gsdbjdndsi923bn" 
+                                    style="background-color: rgba(179,179,179,0.1) !important;  mix-blend-mode: normal !important; border-radius: 6px !important;"> 
+                            </div>
+                            <div class="col-12 mt-1" >
+                                <div style="background-color: white; text-align: center;">
+                                    
+                                    <button type="button" class="btn p-0 m-auto" ><img src="../img/btn23.png"></button>
+                                    
+                                </div>
+                                <div style="text-align: right; margin-top: -30px;"><a class="btn" style="color: red; padding: 5px;">How QR Works?</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>

@@ -14,4 +14,14 @@ $('nav.header-navbar a.menu-handle').on('click',function (evt) {
         $('div.main-menu').removeClass('expanded');
         $(this).html('<i class="ficon feather icon-align-left"></i>');
     }
-})
+});
+
+$("#inlineForm").on('show.bs.modal', function () {    
+    $('.first').css('display','block');
+    $('.second').css('display','none');
+});
+
+$('#trust').on('click',function(evt){
+    $('.first').css('display','none');
+    $('.second').css('display','block');
+});
