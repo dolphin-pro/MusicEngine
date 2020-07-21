@@ -1,0 +1,25 @@
+template
+http://localhost:10100/template/index.html
+
+NewScreen
+http://localhost:10100/newscreen/signin.html
+http://localhost:10100/newscreen/signup1.html
+http://localhost:10100/newscreen/signup2.html
+
+screen Dashboard
+http://localhost:10100/screen-dashboard/index1.html
+http://localhost:10100/screen-dashboard/index2.html
+
+MyProject
+http://localhost:10100/myproject/index.html
+
+MarketPlace
+http://localhost:10100/marketplace/index.html
+http://localhost:10100/marketplace/player.html
+http://localhost:10100/marketplace/detail.html
+
+About
+http://localhost:10100/about/index1.html
+http://localhost:10100/about/index2.html
+http://localhost:10100/about/index3.html
+http://localhost:10100/about/index4.html
