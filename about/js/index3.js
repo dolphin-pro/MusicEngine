@@ -29,6 +29,34 @@ var tapSlider = document.getElementById('audio');
     }
   });
 
+  var mySwiper14 = new Swiper('.swiper-responsive-breakpoints', {
+    slidesPerView: 1,
+    spaceBetween: 50,
+    // init: false,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    breakpoints: {
+      1024: {
+        slidesPerView: 1,
+        spaceBetween: 40,
+      },
+      768: {
+        slidesPerView: 1,
+        spaceBetween: 30,
+      },
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      }
+    }
+  });
+
 /*=========================================================================================
     File Name: fullcalendar.js
     Description: Fullcalendar

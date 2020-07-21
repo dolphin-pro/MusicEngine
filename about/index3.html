@@ -16,6 +16,7 @@
 
     <!-- BEGIN: Vendor CSS-->
     <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/extensions/swiper.min.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/extensions/nouislider.min.css">
 
     <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/calendars/fullcalendar.min.css">
@@ -35,6 +36,7 @@
     <!-- BEGIN: Page CSS-->
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/vertical-menu.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/colors/palette-gradient.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/plugins/extensions/swiper.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/plugins/extensions/noui-slider.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/colors/palette-noui.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/plugins/calendars/fullcalendar.css">
@@ -42,7 +44,7 @@
 
     <!-- BEGIN: Custom CSS-->
     <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/index1.css">
+    <link rel="stylesheet" type="text/css" href="css/index3.css">
     <!-- END: Custom CSS-->
 
 </head>
@@ -133,65 +135,112 @@
                 <div class="m-auto" style="width: 80%;">
                     <div class="row">
                         <div class="col-12">
-                            <h3>Newsfeed</h3>
+                            <button class="btn" style="background: rgba(0, 0, 0, 0.2); border: 1px solid rgba(255, 255, 255, 0.2); text-transform: uppercase;">
+                                <img src="../img/btn36.png"> Back</button>
+                            <h3 class="mt-1">Artist Details Page</h3>                            
+                        </div>
+                        <div class="col-12 d-flex justify-content-between align-items-center">
                             <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
-                        </div>
-                        <div class="col-12 d-md-flex align-items-center" style="margin-top: 100px;">
-                            <img src="../resource/img44.png">
-                            <div class="ml-1">
-                                <h3>Profile Completion</h3>
-                                <div style="color: red; text-transform: uppercase;">Garry Gurcharan</div>
+                            <div>                                
+                                <button class="btn mr-1" style="border: 1px solid red; text-transform: uppercase; color: white;">Rates</button>
+                                <button class="btn mr-1" style="background-color: red; text-transform: uppercase; color: white;">Send Message</button>
+                                <button class="btn mr-1" style="border: 1px solid red; text-transform: uppercase; color: white;">Collaborate</button>
                             </div>
                         </div>
+                        
                     </div>
-                    <div class="row">
-                        <div class="col-9 p-2">
-                            <div class="row p-2 default">
-                                <div class="col-12">                                    
-                                    <div class="d-md-flex align-items-center">
-                                        <img src="../resource/img45.png">
-                                        <div class="ml-1">
-                                            <h3>Garry Gurcharan</h3>
-                                            <div style="color: red; text-transform: uppercase;">@GarryGurcharan</div>
-                                        </div>
+                    <div class="row mt-2">
+                        <div class="col-3 text-center">
+                            <div class="default p-2">
+                                <img src="../resource/img57.png">
+                                <h3>Zara Larsson</h3>
+                                <div>Brand Ambassador, Tokyo, Japan</div>
+                                <div class="d-flex justify-content-center mt-1">
+                                    <div class="mr-1">
+                                        <img src="../img/btn39.png">
+                                        <div style="padding-top: 5px; color: white;">3.2K</div>
+                                    </div>
+                                    <div class="mr-1">
+                                        <img src="../img/btn40.png">
+                                        <div style="padding-top: 5px; color: white;">3.2K</div>
+                                    </div>
+                                    <div class="mr-1">
+                                        <img src="../img/facebook.png">
+                                        <div style="padding-top: 5px; color: white;">9.1K</div>
                                     </div>
                                 </div>
-                                <div class="col-12 d-flex justify-content-between mt-2 p-1" style="background-color: #212428;">
-                                    <div>Whats on your mind, Garry?</div>
-                                    <div >
-                                        <span>Add to your post</span>
-                                        <button class="btn p-0" style="margin-left: 5px;"><img src="../img/btn24.png"></button>
-                                        <button class="btn p-0" style="margin-left: 5px;"><img src="../img/btn25.png"></button>
-                                        <button class="btn p-0" style="margin-left: 5px;"><img src="../img/btn26.png"></button>
-                                        <button class="btn p-0" style="margin-left: 5px;"><img src="../img/btn27.png"></button>
-                                        <button class="btn ml-1" style="background-color: red; color: white;">POST</button>
-                                    </div>
-                                </div>
+                                <hr>
+                                <div style="color: red;">EDIT</div>
                             </div>
                         </div>
-                        <div class="col-3 p-2">
-                            <div class="d-flex flex-wrap justify-content-center align-content-center default h-100">
-                                <div class="m-1">
-                                    <button class="btn p-0" style="margin-left: 5px;"><img src="../img/agree.png"></button>
-                                    <h6>12665</h6> 
-                                    <div style="text-transform: uppercase; font-size: 10px;"> LIKES</div>
+                        <div class="col-3 text-center">
+                            <div class="default p-2">
+                                <img src="../img/folder.png">
+                                <div class="mt-1">
+                                    <span class="mr-1">Projects</span>
+                                    <span style="background-color: rgba(179, 179, 179, 0.2)">24</span>
                                 </div>
-                                <div class="m-1">
-                                    <button class="btn p-0" style="margin-left: 5px;"><img src="../img/btn6.png"></button>
-                                    <h6>8,665</h6> 
-                                    <div style="text-transform: uppercase; font-size: 10px;"> love</div>
+                                <div class="d-flex justify-content-between mt-1">
+                                    <div>Ongoing</div>
+                                    <h6>04</h6>
                                 </div>
-                                <div class="m-1">
-                                    <button class="btn p-0" style="margin-left: 5px;"><img src="../img/disagree.png"></button>
-                                    <h6>945</h6> 
-                                    <div style="text-transform: uppercase; font-size: 10px;"> disLIKES</div>
+                                <hr>
+                                <div class="d-flex justify-content-between mt-1">
+                                    <div>Pitching</div>
+                                    <h6>17</h6>
                                 </div>
-                                <div class="m-1">
-                                    <button class="btn p-0" style="margin-left: 5px;"><img src="../img/btn28.png"></button>
-                                    <h6>5,665</h6> 
-                                    <div style="text-transform: uppercase; font-size: 10px;"> happy</div>
+                                <hr>
+                                <div style="color: red; text-transform: uppercase;">View all</div>
+                            </div>
+                        </div>
+                        <div class="col-3 text-center">
+                            <div class="default p-2">
+                                <img src="../img/btn37.png">
+                                <div class="mt-1">
+                                    <span class="mr-1">Discussions</span>
+                                    <span style="background-color: rgba(179, 179, 179, 0.2)">5</span>
                                 </div>
+                                <div class="d-flex justify-content-between mt-1">
+                                    <div>New Messages</div>
+                                    <div class="d-flex align-items-center">
+                                        <img src="../img/btn41.png">
+                                        <h6>04</h6>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between mt-1">
+                                    <div>Your Discussions</div>
+                                    <h6>17</h6>
+                                </div>
+                                <hr>
+                                <div style="color: red; text-transform: uppercase;">view all</div>
+                            </div>
+                        </div>
+                        <div class="col-3 text-center">
+                            <div class="default p-2">
+                                <img src="../img/btn37.png">
+                                <div class="mt-1">
+                                    <span class="mr-1">Connections</span>
+                                    <span style="background-color: rgba(179, 179, 179, 0.2)">20</span>
+                                </div>
+                                <div class="d-flex justify-content-between mt-1">
+                                    <div>Found</div>
+                                    <div class="d-flex align-items-center">
+                                        <img src="../img/btn41.png">
+                                        <h6>25</h6>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-around mt-1">
+                                    <img src="../resource/img59.png">
+                                    <img src="../resource/img60.png">
+                                    <img src="../resource/img61.png">
+                                    <img src="../resource/img62.png">
+                                    <button type="button" class="btn btn-icon btn-icon rounded-circle" style="border: 1px solid white; color: white;
+                                        padding: 8px 5px;" > <i class="feather icon-plus"></i>3</button>
+                                </div>
+                                <hr>
+                                <div style="color: red; text-transform: uppercase;">view all</div>
                             </div>
                         </div>
                     </div>
@@ -199,24 +248,32 @@
                         <div class="col-9">
                             <ul class="nav nav-tabs" role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link active" id="project-tab" data-toggle="tab" href="#project" aria-controls="project" role="tab" aria-selected="true"
-                                        style="text-transform: uppercase;">All Updates</a>
+                                    <a class="nav-link" id="project-tab" data-toggle="tab" href="#project" aria-controls="project" role="tab" aria-selected="true"
+                                        style="text-transform: uppercase;">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " id="coverart-tab" data-toggle="tab" href="#coverart" aria-controls="coverart" role="tab" aria-selected="false"
-                                    style="text-transform: uppercase;"> Mentions</a>
+                                    <a class="nav-link active" id="timeline-tab" data-toggle="tab" href="#timeline" aria-controls="timeline" role="tab" aria-selected="false"
+                                    style="text-transform: uppercase;"> Timeline</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link " id="genre-tab" data-toggle="tab" href="#genre" aria-controls="genre" role="tab" aria-selected="false"
-                                        style="text-transform: uppercase;"> Friends</a>
+                                        style="text-transform: uppercase;"> Projects</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" id="mood-tab" data-toggle="tab" href="#mood" aria-controls="mood" role="tab" aria-selected="true"
-                                        style="text-transform: uppercase;">Blog Posts</a>
+                                        style="text-transform: uppercase;">Photos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="project-tab" data-toggle="tab" href="#project" aria-controls="project" role="tab" aria-selected="true"
+                                        style="text-transform: uppercase;">Videos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " id="coverart-tab" data-toggle="tab" href="#coverart" aria-controls="coverart" role="tab" aria-selected="false"
+                                    style="text-transform: uppercase;"> Portfolio</a>
                                 </li>
                             </ul>
                             <div class="tab-content mt-3">
-                                <div class="tab-pane active" id="project" aria-labelledby="project-tab" role="tabpanel">
+                                <div class="tab-pane active" id="timeline" aria-labelledby="timeline-tab" role="tabpanel">
                                     <div class="tab-background p-2">
                                         <div class="d-flex align-items-center">
                                             <img src="../resource/img46.png">
@@ -437,14 +494,26 @@
                         </div>
                         <div class="col-3">
                             <div class="border-dark p-2">
-                                <div class="default p-2 text-center">
-                                    <div>
-                                        <img src="../resource/img56.png">                                
+                                <div class="d-flex flex-wrap justify-content-center align-content-center default pt-5 pb-5">
+                                    <div class="m-1">
+                                        <button class="btn p-0" style="margin-left: 5px;"><img src="../img/agree.png"></button>
+                                        <h6>12665</h6> 
+                                        <div style="text-transform: uppercase; font-size: 10px;"> LIKES</div>
                                     </div>
-                                    <h3 style="padding-top: 10px;">Profile Completion</h3>
-                                    <div style="color: red;">Garry Gurcharan</div>
-                                    <div style="padding-top: 10px;">
-                                        Complete your profile by filling profile info fields, completing quests & unlocking badges
+                                    <div class="m-1">
+                                        <button class="btn p-0" style="margin-left: 5px;"><img src="../img/btn6.png"></button>
+                                        <h6>8,665</h6> 
+                                        <div style="text-transform: uppercase; font-size: 10px;"> love</div>
+                                    </div>
+                                    <div class="m-1">
+                                        <button class="btn p-0" style="margin-left: 5px;"><img src="../img/disagree.png"></button>
+                                        <h6>945</h6> 
+                                        <div style="text-transform: uppercase; font-size: 10px;"> disLIKES</div>
+                                    </div>
+                                    <div class="m-1">
+                                        <button class="btn p-0" style="margin-left: 5px;"><img src="../img/btn28.png"></button>
+                                        <h6>5,665</h6> 
+                                        <div style="text-transform: uppercase; font-size: 10px;"> happy</div>
                                     </div>
                                 </div>
                                 <div class="default p-2 mt-1">
@@ -468,6 +537,63 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+
+                            <div class="border-dark p-2 mt-1">
+                                <div class="d-flex justify-content-between">
+                                    <h6>Photos 74</h6>
+                                    <button class="btn p-0"><img src="../img/more.png"></button>
+                                </div>
+                                <div class="mt-1 d-flex justify-content-center">
+                                    <img src="../resource/img63.png" style="margin-left: 5px; margin-right: 5px;">
+                                    <img src="../resource/img64.png"  style="margin-left: 5px; margin-right: 5px;">
+                                    <img src="../resource/img65.png"  style="margin-left: 5px; margin-right: 5px;">
+                                </div>
+                                <div class="mt-1 d-flex justify-content-center">
+                                    <img src="../resource/img66.png"  style="margin-left: 5px; margin-right: 5px;">
+                                    <img src="../resource/img67.png"  style="margin-left: 5px; margin-right: 5px;">
+                                    <img src="../resource/img68.png"  style="margin-left: 5px; margin-right: 5px;">
+                                </div>
+                                <div class="mt-1 d-flex justify-content-center">
+                                    <img src="../resource/img69.png"  style="margin-left: 5px; margin-right: 5px;">
+                                    <img src="../resource/img70.png"  style="margin-left: 5px; margin-right: 5px;">
+                                    <img src="../resource/img71.png"  style="margin-left: 5px; margin-right: 5px;">
+                                </div>
+                            </div>
+                            <div class="border-dark p-2 mt-1 text-center">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mt-1"> Similar Artists</h3> 
+                                    <img src="../img/more.png">
+                                </div>       
+                                <div class="swiper-responsive-breakpoints swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide" style="background-color: transparent !important;">
+                                            <img class="img-fluid" src="../resource/img9.png" alt="banner">
+                                            <div class="text-center"><h6> High as Hope </h6></div>
+                                        </div>
+                                        <div class="swiper-slide" style="background-color: transparent !important;">
+                                            <img class="img-fluid" src="../resource/img10.png" alt="banner">
+                                            <div class="text-center"><h6> High as Hope </h6></div>
+                                        </div>
+                                        <div class="swiper-slide" style="background-color: transparent !important;">
+                                            <img class="img-fluid" src="../resource/img11.png" alt="banner">
+                                            <div class="text-center"><h6> High as Hope </h6></div>
+                                        </div>
+                                        <div class="swiper-slide" style="background-color: transparent !important;">
+                                            <img class="img-fluid" src="../resource/img12.png" alt="banner">
+                                            <div class="text-center"><h6> High as Hope </h6></div>
+                                        </div>
+                                        <div class="swiper-slide" style="background-color: transparent !important;">
+                                            <img class="img-fluid" src="../resource/img13.png" alt="banner">
+                                            <div class="text-center"><h6> High as Hope </h6></div>
+                                        </div>
+                                        <div class="swiper-slide" style="background-color: transparent !important;">
+                                            <img class="img-fluid" src="../resource/img14.png" alt="banner">
+                                            <div class="text-center"><h6> High as Hope </h6></div>
+                                        </div>
+                                    </div>
+                                    <!-- Add Pagination -->
+                                    <div class="swiper-pagination"></div>
                             </div>
                         </div>
                     </div>
@@ -572,6 +698,7 @@
     <!-- BEGIN Vendor JS-->
 
     <!-- BEGIN: Page Vendor JS-->
+    <script src="../../../app-assets/vendors/js/extensions/swiper.min.js"></script>
     <script src="../../../app-assets/vendors/js/extensions/nouislider.min.js"></script>
     <script src="../../../app-assets/vendors/js/extensions/moment.min.js"></script>
     <script src="../../../app-assets/vendors/js/calendar/fullcalendar.min.js"></script>
@@ -588,7 +715,7 @@
     <script src="../../../app-assets/js/scripts/components.js"></script>
 
     <!-- END: Theme JS-->
-    <script src="js/index1.js"></script>
+    <script src="js/index3.js"></script>
     <!-- BEGIN: Page JS-->
     <!-- END: Page JS-->
 
