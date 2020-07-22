@@ -1,0 +1,46 @@
+body{
+    background-color: initial !important;
+    background-image: url('../../img/background.jpg') !important;
+    background-size: 100% 100%;
+}
+nav.header-navbar{
+    margin: 0px 0px !important;
+    width: 100% !important;
+}
+
+div.main-menu{
+    top: 70px !important;
+}
+
+nav.header-navbar{
+    background: linear-gradient(177.53deg, #5F0000 0%, #310000 100%);
+}
+
+input.search-txt{
+    background-color: rgba(38,43,73,0.2) !important ;
+    mix-blend-mode: normal !important;
+    border: 1px solid #FFFFFF !important;
+    border-radius: 6px !important;
+    width: 300px !important;
+}
+
+div.card{
+    background-color: rgba(0,0,0,0.2) !important;
+}
+
+div.card-header{
+    background-color: rgba(0,0,0,0.2) !important;
+}
+
+select.form-control{
+    background-color: rgba(179,179,179,0.1) !important;
+    mix-blend-mode: normal !important;
+    border-radius: 6px !important;
+    border: 1px solid red !important;
+}
+
+select.form-control option{
+    background-color: rgba(179,179,179,0.1) !important;
+    mix-blend-mode: normal !important;
+    border-radius: 6px !important;
+}
