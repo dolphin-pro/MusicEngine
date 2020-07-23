@@ -31,10 +31,10 @@ input.search-txt{
 }
 
 .default1{
-    background: rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(13.5914px);
-    border-radius: 7.38502px;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(13.5914px) !important;
+    border-radius: 7.38502px !important;
 }
 
 div.tab-pane{
@@ -68,4 +68,14 @@ div.tab-pane{
     background-color: rgba(0, 0, 0, 0.7) !important;
     border: 1px solid #373737 !important;
     border-radius: 6px !important;
+}
+
+.dropdown-menu::before{
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-left: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.dropdown-item:hover{
+    background-color: rgba(0, 0, 0, 0.2) !important;
 }
